@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Mess.Model
 {
-    public class dane : INotifyPropertyChanged
+    public class Dane : INotifyPropertyChanged
     {
         public int Id { get; set; }
         public string? Description { get; set; }
