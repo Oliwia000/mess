@@ -11,11 +11,11 @@ namespace Mess.ViewModel
     public class MainPageViewModel : INotifyPropertyChanged
     {
         // Obiekt służący do tworzenia odświeżalnej listy
-        public ObservableCollection<Dane> dane { get; set; }
+        public ObservableCollection<Dane> Dane { get; set; }
 
         public MainPageViewModel()
         {
-            dane = new ObservableCollection<Dane>
+            Dane = new ObservableCollection<Dane>
             {
                 new Dane { Id = 1, Name = "Jan Postulski", Description = "Opis : Kawa to moje życie", ImageLink = "osoba1.jpg"},
                 new Dane { Id = 2, Name = "Alicja Bystra", Description = " Opis : <brak opisu>", ImageLink = "osoba2.jpg" },
