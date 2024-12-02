@@ -16,7 +16,7 @@
 
         <ScrollView Grid.ColumnSpan="1">
             <VerticalStackLayout>
-                <Label Text="Czaty" TextColor="Black" FontSize="Large"/>
+                <Label Text="Czaty" TextColor="Black" FontSize="Large" Margin="10"/>
                 <Border Stroke="#168AFF" StrokeShape="RoundRectangle 2"  Margin="0, 0, 15,100" >
                     <VerticalStackLayout Spacing="10" Margin="10">
                         <CollectionView ItemsSource="{Binding Dane}">
