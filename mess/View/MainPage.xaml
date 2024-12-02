@@ -19,7 +19,7 @@
                 <Label Text="Czaty" TextColor="Black" FontSize="Large"/>
                 <Border Stroke="#168AFF" StrokeShape="RoundRectangle 2">
                     <VerticalStackLayout Spacing="10" Margin="10">
-                        <CollectionView ItemsSource="{Binding dane}">
+                        <CollectionView ItemsSource="{Binding Dane}">
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
                                     <Grid Padding="5">
@@ -43,6 +43,9 @@
             </VerticalStackLayout>
         </ScrollView>
 
+        
+        
+        
         <Border Stroke="#168AFF" Grid.Column="1" StrokeShape="RoundRectangle 2" Margin="0, 0, 0, 119">
             <VerticalStackLayout HorizontalOptions="Fill">
                 <VerticalStackLayout HorizontalOptions="Start" Margin="10">
