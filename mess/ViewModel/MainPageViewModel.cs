@@ -10,7 +10,7 @@ namespace mess.ViewModel
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {
-        // Obiekt służący do tworzenia odświeżalnej listy
+        
         public ObservableCollection<Dane> Dane { get; set; }
 
         public MainPageViewModel()
