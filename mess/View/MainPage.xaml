@@ -90,14 +90,14 @@
                     </Border>
                 </VerticalStackLayout>
 
-                <Border Margin="10, 96, 10, 10">
+                <Border Margin="5, 80, 5, 5">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="8*"/>
+                            <ColumnDefinition Width="7*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Entry Placeholder="Wpisz wiadomość do przesłania" PlaceholderColor="grey" HorizontalOptions="FillAndExpand"/>
-                        <Button Text="Wyślij" Background="#168AFF" Grid.Column="1"/>
+                        <Button Text="Wyślij" Background="#168AFF" Grid.Column="1" Margin="5,5,5,5"/>
                     </Grid>
                 </Border>
             </VerticalStackLayout>
