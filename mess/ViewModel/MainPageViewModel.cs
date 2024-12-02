@@ -6,7 +6,7 @@ using static Microsoft.Maui.ApplicationModel.Permissions;
 
 
 
-namespace Mess.ViewModel
+namespace mess.ViewModel
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {

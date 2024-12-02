@@ -9,6 +9,7 @@
     Title="Komunikator – Stworzone przez: OS">
 
     <ShellContent
+        
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
