@@ -93,7 +93,7 @@
                 <Border Margin="5, 80, 5, 5">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="7*"/>
+                            <ColumnDefinition Width="6*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Entry Placeholder="Wpisz wiadomość do przesłania" PlaceholderColor="grey" HorizontalOptions="FillAndExpand"/>
